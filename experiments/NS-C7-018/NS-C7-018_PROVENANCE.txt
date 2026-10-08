@@ -1,0 +1,32 @@
+NS-C7-018 — Provenance Record
+
+Experiment:
+NS-C7-018 — Retained-Response Decay / Fading-Memory Test
+
+Original frozen artifact:
+NS-C7-018_retained_response_decay_test.zip
+
+Original frozen ZIP SHA-256:
+bc43f7cdf2a247d7d43e137ca1dbea40447eeb4b32eb68123fb687473220ffe3
+
+Original Pinata / IPFS CID:
+bafkreif4ip3434vci7l5ipqtpsq5x2sair7owszs5nubep5wq5dteih74m
+
+Provenance record prepared:
+2026-09-14T00:19:24Z UTC
+2026-09-13T17:19:24-07:00 America/Phoenix
+
+Git repository:
+rezboots-cmyk/ns-c7-research
+
+Repository path:
+experiments/NC-C7-018/
+
+Git commit hash:
+Experiment commit hash: cf657cf8331db7fa290f78d8ee599e7d91731008
+
+Notes:
+- The SHA-256 and IPFS CID above identify the original frozen ZIP artifact.
+- This provenance record does not alter that already-pinned artifact.
+- The Git commit hash should be recorded after this file is committed and pushed.
+- SHA-256/IPFS establish content identity; the Git commit timestamp/hash establish repository chronology.
