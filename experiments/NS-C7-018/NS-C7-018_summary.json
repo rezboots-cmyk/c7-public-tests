@@ -1,0 +1,98 @@
+{
+  "experiment": "NS-C7-018 Retained-Response Decay / Fading-Memory Test",
+  "fresh_seeds": [
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239
+  ],
+  "development_seeds": [
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227
+  ],
+  "evaluation_seeds": [
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239
+  ],
+  "solver": {
+    "N": 16,
+    "nu": 0.02,
+    "dt": 0.01,
+    "t_end": 2.0,
+    "diagnostic_dt": 0.05,
+    "initial_kmax": 3,
+    "integrator": "Heun/RK2",
+    "dealias": "2/3",
+    "memory_window": 0.3,
+    "memory_lambda": 4.0
+  },
+  "geometry_to_retained_positive_memory": {
+    "spearman_rho": 0.9358151015415512,
+    "spearman_p": 2.1270246852602346e-191,
+    "pearson_r": 0.8656770196722446,
+    "pearson_p": 1.1005974484906371e-127,
+    "r2": 0.7249167012547482,
+    "rmse": 0.1100242217696728
+  },
+  "postcross_pooled_normalized_decay": {
+    "spearman_rho": 0.9494015589550575,
+    "spearman_p": 5.263461164938159e-43,
+    "pearson_r": 0.8968961106395125,
+    "pearson_p": 8.585805442048125e-31,
+    "n_points": 84
+  },
+  "decay_rate_comparison": {
+    "median_lambda_M_pos": 7.7294974118960855,
+    "median_lambda_structural": 0.25045320908938573,
+    "median_abs_lambda_difference": 7.5712451839570445,
+    "lambda_rank_correlation": 0.06993006993006995,
+    "n_decay_fits": 12
+  },
+  "postcross_retention": {
+    "mean_structural_proxy_while_q_nonpositive": 0.2070021386012876,
+    "median_structural_proxy_while_q_nonpositive": 0.206701011668299,
+    "fraction_postcross_points_proxy_positive": 1.0
+  },
+  "n_eval_transitions": 12,
+  "runtime_seconds": 17.23086404800415
+}
